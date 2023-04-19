@@ -1,0 +1,29 @@
+body{
+    background-image: url(lgn1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 870px;
+}
+
+input[type="submit"]{
+    background-color:red;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-size: 24px;}
+.navv{
+   float: left;
+   justify-content: left;
+   text-align: left;
+}
+
+
+  

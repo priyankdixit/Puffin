@@ -1,0 +1,233 @@
+
+body{
+margin: 0;
+background-image: url(background1.3.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+h1{
+    padding: 220px;
+    text-align: right;
+    
+}
+
+nav{
+    text-align: right;
+}
+
+
+
+
+.aa >button{
+  gap: 50px;
+}
+
+a{
+    color:white;
+    
+    border-radius:15%;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+
+    
+}
+
+.navigation nav a {
+    text-decoration: none;
+   
+}
+
+body{
+    margin: 0;
+}
+
+
+.animated-text {
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+    margin-top: -80px;
+    color: crimson;
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  .premium nav{
+
+    justify-content: left;
+
+    
+  }
+  .navbar {
+    display: flex;
+    margin: 1px;
+    align-items: center;
+  }
+  .navbar li{
+    list-style: none;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+  }
+  .navbar li a{
+    text-decoration: none;
+    display: flex;
+  }
+  .aa{
+    margin-left: 50px;
+  }
+  
+  .interactive{
+    text-align: center;
+    margin-bottom: 300px;
+   
+}
+#who{
+  text-align: center;
+}
+#btn1{
+border-radius: 8px;
+background-color: #FF597B;
+margin-right: 20px;
+font-family: 'Times New Roman', Times, serif
+}
+#btn2{
+border-radius: 8px;
+background-color: #FF597B;
+font-family: 'Times New Roman', Times, serif
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.aboutclr{
+  background-color: rgb(14, 14, 41);
+  
+   
+}
+.about-us{
+   color: #dedede;
+   text-align: left;
+   text-decoration: underline;
+}
+.flex{
+   color:#dedede ;
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 50px;
+   padding-bottom: 120px;
+}
+#pd{
+margin-right: 10px;
+}
+.pd img{
+height: 250px;
+}
+.da img{
+height: 250px;
+}
+.vg img{
+height: 250px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.animated-text h1{
+  overflow: hidden;
+
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3s steps(40),
+    blink-caret .75s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+ 
+
+.testimonial-section {
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial {
+  flex-basis: 30%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.ttt{
+  font-size: 40px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  
+}
+
+.logo{
+  border-radius: 50%;
+  margin-right: 750px;
+  padding-top: 50px;
+}
+
+.logo > img {
+  width: 7.5vw;
+  height: 15vh;
+
+}
+
+.h1{
+
+  text-align: right;
+  padding-top: 60px;
+  font-family: cursive;
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-weight: lighter;
+  text-shadow: black;
+  color: rgb(150, 35, 35);
+  
+}

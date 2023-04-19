@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Testimonials Page</title>
+    <style>
+        .testimonial-section {
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial {
+  flex-basis: 30%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+html{
+    background-image: url(background_testi.jpg);
+}
+
+    </style>
+</head>
+<body>
+    <div class="testimonial-section">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img src="testi1.jpeg">
+            <p class="quote"></p>
+            <p class="author"></p>
+          </div>
+          <div class="testimonial">
+            <img src="p1.jpeg">
+            <p class="quote"></p>
+            <p class="author"></p>
+          </div>
+          <div class="testimonial">
+            <img src="p2.jpeg">
+            <p class="quote"></p>
+            <p class="author"></p>
+          </div>
+          <div class="testimonial">
+            <img src="n1.jpeg">
+            <p class="quote"></p>
+            <p class="author"></p>
+          </div>
+          <div class="testimonial">
+            <img src="n3.jpeg">
+            <p class="quote"></p>
+            <p class="author"></p>
+          </div>
+          <div class="testimonial">
+            <img src="m1.jpeg">
+            <p class="quote"></p>
+            <p class="author"></p>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const testimonials = [
+  {
+    quote: "I found my soulmate on this dating site! We're getting married soon!",
+    author: "Esha, 27",
+  },
+  {
+    quote: "I had so much fun meeting new people on this site. I highly recommend it!",
+    author: "Mukesh, 32",
+  },
+  {
+    quote: "I wasn't sure about online dating at first, but this site changed my mind. I met some amazing people!",
+    author: "Rohit, 24",
+  },
+  {
+    quote: "I've tried other dating sites before, but this one is by far the best. I met my current boyfriend here!",
+    author: "Om ,27",
+  },
+  {
+    quote: "Thanks to this site, I finally found someone who shares my interests and values. We're really happy together!",
+    author: "Shreya, 22",
+  },
+
+  {
+    quote: " Thanks to this site, I met my current partner and we've been together for over a year now. I highly recommend this site to anyone looking to find their soulmate!",
+    author:"Parag,23",
+  },
+];
+
+const quoteElements = document.querySelectorAll(".quote");
+const authorElements = document.querySelectorAll(".author");
+
+for (let i = 0; i <6; i++) {
+  const testimonial = testimonials[i];
+  quoteElements[i].textContent = testimonial.quote;
+  authorElements[i].textContent = testimonial.author;
+}
+
+      </script>
+      
+</body>
+</html>
+
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Membership Page</title>
+    <style>
+
+body {
+  line-height: 2.5;
+}
+
+h1 ,h2, h3{
+    text-align: center;
+}
+
+
+
+.section1{
+
+    
+    padding: 5px;
+}
+h2{
+    word-spacing: 15px;
+}
+h3{
+    word-spacing: 8px;
+}
+h1{
+    color: crimson;
+}
+
+.payment{
+
+    
+    padding: 5px;
+}
+
+.container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+            grid-gap: 10px;
+            grid-auto-rows: minmax(80px,auto);
+            grid-auto-columns: minmax(60px,auto);
+            column-gap: 40px;
+            row-gap: 60px;
+            
+
+        }
+
+
+        .item{
+            background-color:rgb(251, 242, 249);
+            border:  3px;
+            border-radius: 12px;
+            padding-left: 7px;
+            padding-right: 7px;
+            color: crimson;
+            margin: 20px;
+           
+        }
+
+        .payment{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+            grid-gap: 20px;
+            grid-auto-rows: minmax(80px,auto);
+            grid-auto-columns: minmax(60px,auto);
+            column-gap: 20px;
+            row-gap: 60px;
+            
+
+        }
+
+        .pay{
+            background-color:rgb(251, 242, 249);
+            border:  3px;
+            border-radius: 12px;
+            padding-left: 20px;
+            
+            color:crimson;
+            
+        }
+
+        #paying{
+            grid-column-start: 1;
+            grid-column-end: 7;
+        }
+
+        #head{
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+
+
+        #head {
+  text-align: center;
+}
+
+.pay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+       
+    </style>
+</head>
+<body>
+    <nav class="navv">
+        <button style="background-color: crimson; border-color: crimson; border-radius: 4px; padding: 10px; "><a id="btn" href="dating.html" style=" color: white;">Home</a></button>
+    </nav>
+
+    <div class = "section1">
+
+    <header><h1>JOIN OUR PREMIUM MEMBERSHIP(Just for 99/-)</h1></header>
+
+    <hr>
+
+    
+
+    <h2>Why you should join our PREMIUIM MEMBERSHIP ?</h2>
+ 
+
+    </div>
+
+
+    <div class="container">
+        <div class="item" id="item-1"><h3>More advanced search filters</h3> <hr>
+            Our Premium membership allows you to use more advanced search filters to find potential matches based on specific criteria such as interests, hobbies, location, and relationship goals.</div>
+        <div class="item" id="item-2"><h3>Access to more profiles</h3> <hr>
+            Our premium membership give you access to a larger pool of profiles, including those of other premium members, increasing your chances of finding a compatible match.</div>
+        <div class="item" id="item-3"><h3>Better communication options</h3> <hr>
+            Premium members have access to additional communication options such as video calls, voice calls, and messaging features that allow for more personalized and direct communication with potential matches.</div>
+        <div class="item" id="item-4"><h3> Get fully verified profiles</h3> <hr>
+            Premium memberships offer a verification process that helps ensure that the profiles on the site are genuine and not fake.</div>
+        <div class="item" id="item-5"><h3>Enjoy an ad-free experience</h3> <hr>
+             With a premium membership, you can enjoy an ad-free experience.</div>
+        <div class="item" id="item-6"><h3>Safety and security features</h3> <hr>
+             Premium memberships comes with additional safety and security features that help protect your personal information and ensure a safer online dating experience.</div>
+
+    </div>
+    
+
+
+
+    <div class="payment">
+
+        <div class="pay" id="paying">
+
+    <h3 id="head">Pay now and enjoy your PREMIUM MEMBERSHIP</h3>
+    <P>Email address*<input type="email" required placeholder="Enter your email address" name="email" id="email"></P>
+    <p>Password*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="password" id="password" required placeholder="********"></p>
+    <input type="submit" value="PAY NOW">
+
+    </div>
+
+    </div>
+    
+</body>
+</html>
